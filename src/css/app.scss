@@ -1,0 +1,178 @@
+.artickles__cat{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem 2.8rem;
+
+}
+
+.product__items {
+  width: 33.33333%;
+  padding: 0 1rem;
+  margin-bottom: 100px;
+  .pro {
+    display: flex;
+    justify-content: space-between;
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    width: 180px;
+    height: 220px;
+  }
+  h1{
+    font-size: 1.2rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  h3{
+    font-size: 1rem;
+    color: gray ;
+  }
+  p{
+    font-size: .8rem;
+    color: gray;
+    font-weight: 300;
+    line-height: 2;
+  }
+}
+.products__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.siml__products {
+  width: 33.33333%;
+  padding: 0 1rem;
+  margin-bottom: 100px;
+  margin-top: 10px;
+
+  img{
+    display: block;
+    max-width: 100%;
+    width: 180px;
+    height: 220px;
+  }
+  h1{
+    font-size: 1.2rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  p{
+    font-size: .8rem;
+    color: gray;
+    font-weight: 300;
+    line-height: 2;
+  }
+}
+
+.product__item {
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 100px;
+
+
+  img{
+    display: block;
+    max-width: 100%;
+    width: 180px;
+    height: 220px;
+  }
+}
+.products {
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0 -1rem 2.8rem;
+
+}
+.artickles__title {
+  font-size: 2rem;
+  color: gray;
+}
+.category {
+  width: 30%;
+  //border-right: 2px solid silver;
+    a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: rgba(39, 0, 156);
+      color: white;
+    }
+  }
+
+}
+.footer {
+  margin-top: auto;
+}
+.about__content {
+    width: 70%;
+}
+.about__inner {
+  display: flex;
+  //flex-wrap: wrap;
+  //max-width: 1090px;
+
+}
+.about__filter {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 10px;
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+}
+
+#formadd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .form-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    margin: 5px;
+    padding: 5px;
+    max-width: 250px;
+    border-radius: 5px;
+  }
+  textarea {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+
+
+  }
+  label {
+    margin: 5px;
+    padding: 10px;
+  }
+  button {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+.error {
+  color: red;
+  text-align: center;
+}

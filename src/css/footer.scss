@@ -1,0 +1,27 @@
+.footerNav {
+    padding: 0 20px;
+       ul{
+         display: flex;
+         justify-content: space-between;
+        }
+    li{
+      list-style: none;
+      a{
+        color: darkorange;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        &:hover {
+          text-decoration: underline;
+          color: #ff1c13;
+        }
+        &.active {
+          text-decoration: underline;
+          color: #ff1c13;
+        }
+
+      }
+    }
+
+     }
