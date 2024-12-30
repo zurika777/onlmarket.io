@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/onlmarket.io/static/css/main.856f22b1.css",
+    "main.js": "/onlmarket.io/static/js/main.918e3d75.js",
+    "static/media/loader.svg": "/onlmarket.io/static/media/loader.518aa52bc5486c33a58f79cefa59c35b.svg",
+    "index.html": "/onlmarket.io/index.html",
+    "main.856f22b1.css.map": "/onlmarket.io/static/css/main.856f22b1.css.map",
+    "main.918e3d75.js.map": "/onlmarket.io/static/js/main.918e3d75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.856f22b1.css",
+    "static/js/main.918e3d75.js"
+  ]
+}
